@@ -17,7 +17,7 @@ class _MyPageState extends State<MyPage> {
       try {
         await user.updatePassword(_newPassword!);
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text('비밀번호가 성공적으로 변경되었습니다.'),
+          content: Text('비밀번호가 성공적으로 번경됨.'),
         ));
       } catch (e) {
         print('Error: $e');
