@@ -22,7 +22,7 @@ class _MyPageState extends State<MyPage> {
       } catch (e) {
         print('Error: $e');
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text('비밀번호 변경에 실패했습니다.'),
+          content: Text('비밀번호 변경에 실패했습.'),
         ));
       }
     }
